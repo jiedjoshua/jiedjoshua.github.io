@@ -357,19 +357,23 @@ outline: none;
 
 
 @keyframes typing {
-  0.0000%  { content: ""; }
-  1.1395% { content: "J"; }
-  2.2791% { content: "Ji"; }
-  3.4186%  { content: "Jie"; }
-  4.5581% { content: "Jied"; }
-  5.6977% { content: "Jied C "; }
-  6.8372% { content: "Jied Ca"; }
-  7.9767% { content: "Jied Cas"; }
-  9.1163% { content: "Jied Cast"; }
-  10.2558% { content: "Jied Casti"; }
-  11.3953% { content: "Jied Castil"; }
-  12.5349% { content: "Jied Castill"; }
-  13.6744% { content: "Jied Castillo"; }
+  0.0000%  { content: " "; }
+  2.1395% { content: " "; }
+  4.2791% { content: " "; }
+  6.4186% { content: " "; }
+  8.5581% { content: " "; }
+  10.1395% { content: "J"; }
+  12.2791% { content: "Ji"; }
+  14.4186%  { content: "Jie"; }
+  16.5581% { content: "Jied"; }
+  18.6977% { content: "Jied C "; }
+  20.8372% { content: "Jied Ca"; }
+  22.9767% { content: "Jied Cas"; }
+  24.1163% { content: "Jied Cast"; }
+  26.2558% { content: "Jied Casti"; }
+  28.3953% { content: "Jied Castil"; }
+  30.5349% { content: "Jied Castill"; }
+  32.6744% { content: "Jied Castillo"; }
   100% { content: "Jied Castillo"; }
 
 
