@@ -2,7 +2,7 @@
   @media (max-width: 767px) {
     .navbar-brand {
       font-size: 90px;
-      padding-left: 135px;
+      text-align: center;
     }
   
     .me img{
@@ -19,8 +19,7 @@
   
     .name h1{
       font-size: 90px;
-      margin-left: 20px;
-      margin-right: 20px;
+      margin-left: 10px;
       line-height: 90px;
     }
 
