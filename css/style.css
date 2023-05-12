@@ -124,11 +124,11 @@ li a:hover::after{
   margin-bottom: 0px;
   line-height: 130px;
 }
+
 .me img{
   clear: both;
   float: right;
   max-width: 27%;
-  min-width: 20%;
   margin-top: -40px;
   margin-right: 0px;
   border-radius: 500px;
@@ -210,50 +210,6 @@ li a:hover::after{
   color: white;
   font-size: 16px;
   padding: 16px 32px;
-}
-
-
-@media (max-width: 1200px) {
-  .middle {
-    top: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-
-@media (min-width: 768px) {
-  .navbar-toggler {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  .navbar-brand {
-    font-size: 90px;
-    padding-left: 100px;
-  }
-
-  .name h1{
-    font-size: 90px;
-  }
-
-  .scroll-down-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 500px;
-    margin: auto;
-
-  }
-
-  .middle {
-    top: 85%;
-  }
 }
 
 
