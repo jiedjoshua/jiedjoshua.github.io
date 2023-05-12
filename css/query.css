@@ -18,16 +18,13 @@
     }
   
     .scroll-down-wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
       position: absolute;
       bottom: 0;
       left: 0;
       right: 0;
       top: 500px;
-      margin: auto;
+      margin-top: 800px;
+      margin-right: 30px;
   
     }
   
