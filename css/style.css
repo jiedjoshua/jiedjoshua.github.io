@@ -164,32 +164,48 @@ li a:hover::after{
   font-family: 'Work Sans';
   font-size: 50px;
   font-weight: bolder;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
 
 }
 
 
 .mapua img{
-  max-width: 100%;
+  float: left;
+  margin-left: 0px;
+  max-width: 52%;
   padding-bottom: 20px;
   opacity: 1;
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
 }
+.mapua2 h2{
+  color:  rgb(153, 7, 7);
+  font-family: 'Work Sans';
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 56%;
+}
 
-.mapua p{
+.mapua2 p{
   color: white;
   font-family: 'Work Sans';
   font-size: 17px;
   text-align: left;
+  margin-left: 56%;
 }
 
+strong{
+  color: rgb(215, 198, 9);
+}
 
-.middle { /*put in the middle of the img*/
+.middle { 
   position: absolute;
   top: 740px;
-  left: 50%;
+  left: 27%;
   transition: .5s ease;
   opacity: 0;
   transform: translate(-50%, -50%);
@@ -197,20 +213,66 @@ li a:hover::after{
   text-align: center;
 }
 
-.education:hover .mapua img {
+.mapua:hover img {
   opacity: 0.3;
 }
 
-.education:hover .middle {
-  opacity: 100%;
+.mapua:hover .middle {
+  opacity: 1;
 }
 
 .text {
-  background-color: #04AA6D;
+  background-color: white;
   color: white;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: 16px 30px;
 }
+
+.text a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Work Sans';
+}
+
+/* certificate */
+
+.certificate h1{
+  text-align: center;
+  padding-top: 300px;
+  color: white;
+  font-family: 'Work Sans';
+  font-size: 50px;
+  font-weight: bolder;
+  padding-bottom: 5px;
+}
+
+
+.see{
+  float: right;
+}
+.see a{ /* put in right side after certificate h1*/
+ text-align: right;
+  color: white;
+  font-family: 'Work Sans';
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  text-decoration: none;
+
+}
+
+.bi-arrow-right-circle {
+  color: white;
+}
+
+.row{
+  clear: both;
+}
+.col img{
+  max-width: 100%;
+  padding-top: 10%;
+}
+
 
 
 

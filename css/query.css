@@ -45,7 +45,30 @@
     .middle {
       top: 85%;
     }
+    
+    .mapua img{
+        clear: both;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .mapua2 h2{
+        clear: both;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        
+      }
+
+    .mapua2 p{
+      margin: 0 5px;
+      font-size: small;
+    }
+    
   }
+
+ 
 
 
   @media (min-width: 768px) and (max-width: 991px) {
@@ -70,8 +93,8 @@
 
   @media (min-width: 992px) and (max-width: 1199px){
     .middle {
-        top: 75%;
-        left: 50%;
+        top: 77%;
+        left: 26%;
         transform: translateX(-50%);
       }
   
@@ -79,6 +102,15 @@
         margin-top: 0px;
         margin-bottom: 40px;
         max-width: 30%;
+      }
+
+      .mapua2 h2{
+        margin-top: 50px;
+      }
+
+      .mapua2 p{
+        
+        font-size: 13px;
       }
   }
   
